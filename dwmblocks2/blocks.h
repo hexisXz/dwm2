@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
         {"BAT ", "cat /sys/class/power_supply/BAT0/capacity",	                5,              0}, 
 
-	{"⛅ ", "curl -sf 'https://wttr.in/Ohio?format=%C,%t&lang=en'",	        60,		0},
+	{"⛅ ", "curl -sf 'https://wttr.in/Twinsburg,Ohio?format=%C,%t&lang=en'",	        60,		0},
 
 	{"Mem : ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
 
